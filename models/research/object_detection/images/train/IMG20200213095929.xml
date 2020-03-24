@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG20200213095929.jpg</filename>
+	<path>C:\Users\ganesh\Desktop\object detection\models\research\object_detection\images\train\IMG20200213095929.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>license_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>349</xmin>
+			<ymin>270</ymin>
+			<xmax>438</xmax>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+</annotation>

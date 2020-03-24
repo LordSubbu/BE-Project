@@ -1,0 +1,26 @@
+<annotation>
+	<folder>testing</folder>
+	<filename>IMG20200213094700.jpg</filename>
+	<path>C:\Users\ganesh\Desktop\object detection\models\research\object_detection\images\testing\IMG20200213094700.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>license_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>228</xmin>
+			<ymin>275</ymin>
+			<xmax>459</xmax>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+</annotation>
