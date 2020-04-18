@@ -39,7 +39,6 @@ from object_detection.utils import shape_utils
 randomList = []
 
 confidence = 0
-capture = 0
 _TITLE_LEFT_MARGIN = 10
 _TITLE_TOP_MARGIN = 10
 STANDARD_COLORS = [
@@ -694,9 +693,8 @@ def visualize_boxes_and_labels_on_image_array(
     
     if scores is None or scores[i] > min_score_thresh:
       global confidence
-      global capture
       confidence = scores[i]
-      capture = image
+      
       # print("score TEst ",confidence)
       # randomList.append(confidence)
         
@@ -768,7 +766,7 @@ def visualize_boxes_and_labels_on_image_array(
           radius=line_thickness / 2,
           use_normalized_coordinates=use_normalized_coordinates)
 
-  return capture,confidence
+  return image,confidence
 
 
 def add_cdf_image_summary(values, name):
